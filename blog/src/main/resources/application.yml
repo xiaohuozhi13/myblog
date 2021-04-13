@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    mode: HTML
+    suffix: .html
+    prefix: classpath:/templates/
+  profiles:
+    active: dev
+
+comment.avatar: /images/user3.jpg
